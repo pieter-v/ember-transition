@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('aa');
+  this.route('bb');
+  this.route('cc');
 });
 
 export default Router;
